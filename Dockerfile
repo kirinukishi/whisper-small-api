@@ -1,5 +1,6 @@
 # ベースイメージ: PyTorch + CUDA + cuDNN 開発環境
-FROM pytorch/pytorch:2.0.1-cuda11.8-cudnn8-devel
+FROM pytorch/pytorch:2.0.1-cuda11.8-cudnn8-runtime
+
 
 # 作業ディレクトリを設定
 WORKDIR /app
